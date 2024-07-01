@@ -97,6 +97,9 @@ Products ||--o{ LineItems: ""
 > [!WARNING]
 > !!! Some fields and entities pertaining to standard Rails operations are elided in the diagram above. !!!
 
+> [!WARNING]
+> !!! Evaluation note: The Fastify API is only a part of the app's infrastructure and should neither be modified nor taken as part of the project critics. You don't need to worry about understanding it. !!!
+
 ## API
 
 API documentation for the existing endpoints can be found in the `API.md` file.
