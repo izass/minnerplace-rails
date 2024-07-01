@@ -39,7 +39,7 @@ class CartsController < ApplicationController
     end
   
     def cart_params
-      params.require(:cart).permit(:user_id, line_items_attributes: [:product_id, :quantity])
+      params.require(:cart).permit(:user_id, :customer_email, line_items_attributes: [:product_id, :quantity])
     end
 
     def update_or_create_line_items

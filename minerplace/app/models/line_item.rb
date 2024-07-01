@@ -30,6 +30,7 @@ class LineItem < ApplicationRecord
   end
 
   def update_cart_total_price
+    cart.reload
     cart.update_total_price
     cart.save
   end
