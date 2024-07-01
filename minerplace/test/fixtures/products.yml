@@ -1,0 +1,34 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Product1
+  description: Product1 Description
+  sku: PRODUCTSKU1
+  price: 9.99
+  currency: MyString
+  category: one
+  inventory: 1
+  reserved: 0
+  sold: 0
+
+two:
+  name: Product2
+  description: Product2 Description
+  sku: PRODUCTSKU2
+  price: 9.99
+  currency: MyString
+  category: two
+  inventory: 21
+  reserved: 0
+  sold: 15
+
+three:
+  name: Product3
+  description: Product3 Description
+  sku: PRODUCTSKU3
+  price: 8.99
+  currency: MyString
+  category: two
+  inventory: 1
+  reserved: 0
+  sold: 0

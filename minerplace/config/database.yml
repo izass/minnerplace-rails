@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: postgres
+  password: sekret
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: minerplace_development
+
+test:
+  <<: *default
+  database: minerplace_test
+
+production:
+  <<: *default
+  database: minerplace_production
+  username: minerplace
+  password: <%= ENV["MINERPLACE_DATABASE_PASSWORD"] %>
